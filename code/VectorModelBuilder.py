@@ -312,3 +312,6 @@ if __name__ == "__main__":
     )
     builder.create_vector_model()
     builder.save_vector_model()
+
+
+# python distributional_learning/code/VectorModelBuilder.py data/onset_tokens_arpa.txt --n 2 --word2vec

@@ -259,3 +259,8 @@ sys.stdout = TextRedirector(text, "stdout")
 sys.stderr = TextRedirector(text, "stderr")
 
 window.mainloop()
+
+
+python generate_vowel_harmony_corpus.py --corpus_size 8000 --outfile output_train.txt 
+
+python code\\generate_vowel_harmony_corpus.py --corpus_size 2000 --outfile output_dev.txt
